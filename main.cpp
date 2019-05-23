@@ -85,4 +85,6 @@ void testTransform()
 int main()
 {
     testFunctorAndTuple();
+    using NL = NumberList<4,3>;
+    printList<NL>(std::cout);
 }
